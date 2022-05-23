@@ -1,4 +1,6 @@
 def count_words(words)
-words.split("").count
+word_count = words.split(" ").count
+return word_count
+ 
 end
 

@@ -1,7 +1,7 @@
 def track_my_task(text)
 
   if text == nil
-  return nil
+  return "Error"
     
   elsif text.include? ("#TODO") 
   return text
