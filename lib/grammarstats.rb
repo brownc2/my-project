@@ -6,7 +6,7 @@ class GrammarStats
 
   def check(text)
    fail "fail: please enter string" if text.is_a? Integer
-      if text[-1].include?(".") && text[0].match?(/\A[A-Z]/)
+      if text[-1].include?(".") && text[0].match?(/\A[A-Z]/x)
         @true = @true + 1 
         return true
        
