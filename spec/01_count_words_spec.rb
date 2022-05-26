@@ -1,4 +1,4 @@
-require "count_words"
+require "01_count_words"
 
 RSpec.describe "make a count_words method" do
     context "Given a string, return the number of word in that string" do

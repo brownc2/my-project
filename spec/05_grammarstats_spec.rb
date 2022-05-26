@@ -1,4 +1,4 @@
-require 'grammarstats'
+require '05_grammarstats'
 
 RSpec.describe GrammarStats do
  context 'Check Method' do

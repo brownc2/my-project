@@ -1,4 +1,4 @@
-require "design_class_exercise_1"
+require "06_design_class_exercise_1"
 
 RSpec.describe Todo_List.new do 
   context "add_task method" do
